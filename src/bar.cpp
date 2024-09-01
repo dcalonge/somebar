@@ -270,7 +270,7 @@ void Bar::renderStatus()
 	cairo_fill(_painter);
 
 	_x = start;
-	setColorScheme(colorInactive, false);
+	setColorScheme(colorActive, false);
 	if (_statusCmp.width() > 0)
 	{
 		renderComponent(_statusCmp);
